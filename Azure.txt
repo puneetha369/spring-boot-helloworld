@@ -1,0 +1,6 @@
+Container Registry
+Registry name: unextlikhithregistry
+Login Server: unextlikhithregistry.azurecr.io
+Username: unextlikhithregistry
+password: uU+F2nlWGfW1dXqFsqptr2vcpzv8k/7zx7SD8lC/Y4+ACRDWpaan
+password2: AG0ZINmCEmoCYgTxYMILCpmL/WC5v4SGA97Bvmp+vW+ACRDWJX3N
