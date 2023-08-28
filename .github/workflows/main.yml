@@ -2,9 +2,9 @@ name: Build a Docker image and Push it to ACR
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
   workflow_dispatch:
 
@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: azure/docker-login@v1
         with:
            login-server: ${{ secrets.ACR_ENDPOINT }}
